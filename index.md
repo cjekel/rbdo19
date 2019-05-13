@@ -2,13 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# About
 
-[Link to another page](./another-page.html).
+Reliability Based Design Optimization (RBDO) assumes you know, or can identify a 
 
-There should be whitespace between paragraphs.
+1. You known the statistical distribution
+2. You can identify the statistical distribution
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# The challenge
 
+# Dates
+
+# Submission
+
+# Frequently asked questions
+
+Coming soon.
