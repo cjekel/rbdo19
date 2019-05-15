@@ -46,7 +46,7 @@ Coming soon.
 # Comments 
 
 {% if page.comments %}
-
+<div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
         this.page.url = '{{site.url}}{{page.url}}';
