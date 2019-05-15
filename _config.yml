@@ -3,3 +3,4 @@ description: A non-parametric challenge for the design optimization community.
 show_downloads: false
 google_analytics: UA-67542734-3
 theme: jekyll-theme-leap-day
+disqus_shortname: 'cjekel'
