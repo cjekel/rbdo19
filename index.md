@@ -46,7 +46,8 @@ Coming soon.
 
 # References
 
-1. Hanson, D. L.; Koopmans, L. H. Tolerance Limits for the Class of Distributions with Increasing Hazard Rates. Ann. Math. Statist. 35 (1964), no. 4, 1561--1570. doi:10.1214/aoms/1177700380. [https://projecteuclid.org/euclid.aoms/1177700380](https://projecteuclid.org/euclid.aoms/1177700380)
+## 1
+Hanson, D. L.; Koopmans, L. H. Tolerance Limits for the Class of Distributions with Increasing Hazard Rates. Ann. Math. Statist. 35 (1964), no. 4, 1561--1570. doi:10.1214/aoms/1177700380. [https://projecteuclid.org/euclid.aoms/1177700380](https://projecteuclid.org/euclid.aoms/1177700380)
 
 # Comments
 
