@@ -10,8 +10,9 @@ Reliability Based Design Optimization (RBDO) allows for the allocation of risk b
 1. You know the statistical distribution
 2. You can identify the statistical distribution
 
-which can be very difficult in many practical applications. Often times there is limited data, tests/simulations that are too expensive, or lack of prior knowledge to adequately identify the statistical distribution. This results in deterministic regulators (FAA or Mil-Spec) being more rigorous probabilistically than the RBDO community.
+which can be very difficult in many practical applications. Often times there is limited data, tests/simulations that are too expensive, or lack of prior knowledge to adequately identify the statistical distribution. Unfortunately, this means that deterministic regulators (FAA or Mil-Spec) are more rigorous probabilistically than the RBDO community.
 
+This figure highlights the differences between deterministic regulators and the RBDO community.
 ![Difference between FAA and RBDO]({{ "/" | relative_url  }}assets/images/rbdo.png)
 RBDO replaces constraint boundary with distribution (required). FAA (deterministic) replaces it with 10th percentile with 95% confidence even without known distribution.
 
