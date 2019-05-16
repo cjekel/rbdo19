@@ -26,19 +26,15 @@ We have two panels that are independent of one another (e.g, one on the wing and
 
 The Objective function is the weight, assumed to be inversely proportional to the stress allowable $$W = W_1/S_{1a}+W_2/S_2a$$, where $$S_{1a}$$ and $$S_{2a}$$ are the allowables (failure strength of the material for each panel).
 
-The design variables are the failure probabilities _p1_ and _p2_ and confidence levels _c1_ and _c2_. 
+The design variables are the failure probabilities $$p_1$$ and $$p_2$$ and confidence levels $$c_1$$ and $$c_2$$. Essentially the failure allowables are expressed as a function of the probability and confidence level (e.g. $$S_{1a}(p_1, c_1)$$ and $$S_{1a}(p_1, c_1)$$)
 
-You will be given some test data on the material strength.
+You will be given some test data on the material strength ($$S_1, S_2$$) in order to calculate the allowables. This may be the first and fifth lowest failure strength of the material, which was collected from six total tests. See [1](https://projecteuclid.org/euclid.aoms/1177700380) to calculate $$S_{1a}$$ and $$S_{2a}$$ from this data for a given probability and confidence level for the log-concave CDF distribution class.
 
-<body>
-When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-</body>
-
+The goal is to allocate risk between two independent panels for 95% confidence that system probability of failure is less than 10%.
 
 # Dates
 
-- 2019/06/01 Initial announcement
+- 2019/05/22 Initial announcement
 
 # Submission
 
@@ -47,6 +43,10 @@ Coming soon.
 # Frequently asked questions
 
 Coming soon.
+
+# References
+
+1. Hanson, D. L.; Koopmans, L. H. Tolerance Limits for the Class of Distributions with Increasing Hazard Rates. Ann. Math. Statist. 35 (1964), no. 4, 1561--1570. doi:10.1214/aoms/1177700380. [https://projecteuclid.org/euclid.aoms/1177700380](https://projecteuclid.org/euclid.aoms/1177700380)
 
 # Comments
 
