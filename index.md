@@ -24,7 +24,7 @@ Photograph from <a style="background-color:black;color:white;text-decoration:non
 
 We have two panels that are independent of one another (e.g, one on the wing and one on the tail of an airplane). The loads are very well known (deterministic), so the only uncertainties are the failure loads of both panels. One panel is large and therefore heavy, the other panel is small and light. We want to allocate risk between the two so that we have 95% confidence that the probability of failure of the system is less than 10%.
 
-The Objective function is the weight, assumed to be inversely proportional to the stress allowable  _W = W\_1\/S1+W2/S2_, where _S1_ and _S2_ are the allowables (failure strength of the material for each panel).
+The Objective function is the weight, assumed to be inversely proportional to the stress allowable  _W = W1/S1+W2/S2_, where <span>\\( \mathbf{i}_{\text{avg}} \\)</span>_S1_ and _S2_ are the allowables (failure strength of the material for each panel).
 
 The design variables are the failure probabilities _p1_ and _p2_ and confidence levels _c1_ and _c2_. 
 
