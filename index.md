@@ -30,6 +30,11 @@ The design variables are the failure probabilities _p1_ and _p2_ and confidence 
 
 You will be given some test data on the material strength.
 
+<body>
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+</body>
+
 
 # Dates
 
