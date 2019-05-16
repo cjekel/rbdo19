@@ -28,7 +28,7 @@ The Objective function is the weight, assumed to be inversely proportional to th
 
 The design variables are the failure probabilities $$p_1$$ and $$p_2$$ and confidence levels $$c_1$$ and $$c_2$$. Essentially the failure allowables are expressed as a function of the probability and confidence level (e.g. $$S_{1a}(p_1, c_1)$$ and $$S_{1a}(p_1, c_1)$$)
 
-You will be given some test data on the material strength ($$S_1, S_2$$) in order to calculate the allowables. This may be the first and fifth lowest failure strength of the material, which was collected from six total tests. See [1](https://jekel.me/rbdo19/#1) to calculate $$S_{1a}$$ and $$S_{2a}$$ from this data for a given probability and confidence level for the log-concave CDF distribution class.
+You will be given some test data on the material strength ($$S_1, S_2$$) in order to calculate the allowables. A typical RBDO would require that you identify the distribution that the material strength follows, however there isn't enough test data or prior knowledge to do this. The challenge will assume that the material strength data belongs to the log-concave CDF distribution class. The test data you'll be given will be the first and fifth lowest failure strength of the material, which was collected from six total tests. See [1](https://jekel.me/rbdo19/#1) to calculate $$S_{1a}$$ and $$S_{2a}$$ from this data for a given probability and confidence level for the log-concave CDF distribution class.
 
 The goal is to allocate risk between two independent panels for 95% confidence that system probability of failure is less than 10%.
 
